@@ -1,4 +1,4 @@
-import { TextField } from "@/app/layouts/__text-field";
+'use client'
 import { Chat } from "@/app/layouts/__chat";
 
 export default function Home() {
@@ -9,11 +9,6 @@ export default function Home() {
           {/* Chat Section */}
           <Chat />
           {/* Chat Section Ends */}
-        </div>
-        <div className="bottom-0 fixed py-12 px-4">
-          {/* TextField Section*/}
-          <TextField />
-          {/* TextField Section Ends */}
         </div>
       </section>
     </main>
